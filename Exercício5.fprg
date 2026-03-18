@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio5"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:59:43 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU5MDsyMDI2LTAzLTE4OyIwMjo0OTowMSAiOzI0Mjc="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU5MDsyMDI2LTAzLTE4OyIwMjo1OTo0MyAiOzE7MjU0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Insira a primeira nota&quot;" newline="True"/>
+            <declare name="Nota1" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Insira a segunda nota&quot;" newline="True"/>
+            <declare name="Nota2" type="Real" array="False" size=""/>
+            <input variable="Nota2"/>
+            <declare name="Soma" type="Real" array="False" size=""/>
+            <assign variable="Soma" expression="Nota1+Nota2"/>
+            <declare name="Media" type="Real" array="False" size=""/>
+            <assign variable="Media" expression="Soma/2"/>
+            <output expression="&quot;A m&#233;dia &#233; igual a &quot; &amp; Media &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
